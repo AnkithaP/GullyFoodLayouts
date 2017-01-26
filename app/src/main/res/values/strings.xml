@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GullyFoodLayouts</string>
+    <string name="underline_text">By continuing, you accept the  </string>
+    <string name="terms"><u>Terms of Use</u></string>
+    <string name="policy"><u>Privacy Policy. </u></string>
+
+    <string name="progress_text1">Gully food, India\'s first Street food app.</string>
+    <string name="progress_text2">Best street food locator in town.</string>
+    <string name="progress_text3">Connect with other foodies.</string>
+    <string name="progress_text4">Discover new offers daily!</string>
+
+</resources>

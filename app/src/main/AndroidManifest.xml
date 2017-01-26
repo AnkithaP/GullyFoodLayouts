@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".TermsOfUse" />
-        <activity android:name=".PrivacyPolicy"></activity>
+        <activity android:name=".PrivacyPolicy" />
+        <activity android:name=".GetStarted"></activity>
     </application>
 
 </manifest>

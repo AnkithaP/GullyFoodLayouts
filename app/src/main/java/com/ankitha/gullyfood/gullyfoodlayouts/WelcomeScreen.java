@@ -13,6 +13,11 @@ public class WelcomeScreen extends AppCompatActivity {
         setContentView(R.layout.welcome_screen);
     }
 
+    public void getStarted(View view){
+        Intent intent = new Intent(this,GetStarted.class);
+        startActivity(intent);
+    }
+
     public void termsOfUse(View view){
         Intent intent = new Intent(WelcomeScreen.this,TermsOfUse.class);
         startActivity(intent);

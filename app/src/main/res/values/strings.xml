@@ -8,5 +8,6 @@
     <string name="progress_text2">Best street food locator in town.</string>
     <string name="progress_text3">Connect with other foodies.</string>
     <string name="progress_text4">Discover new offers daily!</string>
+    <string name="emptyString" />
 
 </resources>

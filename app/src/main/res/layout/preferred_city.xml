@@ -27,9 +27,9 @@
         android:layout_below="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginRight="30dp">
+        android:layout_marginLeft="@dimen/activity_margin"
+        android:layout_marginTop="@dimen/activity_margin"
+        android:layout_marginRight="@dimen/activity_margin">
 
     </EditText>
 
@@ -41,7 +41,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:textColor="@android:color/black"
-        android:textSize="23dp"
+        android:textSize="20dp"
         android:id="@+id/textView8"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
@@ -57,67 +57,67 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:layout_marginRight="@dimen/activity_margin"
             android:layout_gravity="center"
             android:orientation="horizontal">
 
             <Button
-                android:layout_width="170dp"
-                android:layout_height="35dp"
+                android:layout_width="@dimen/activity_large_button_width"
+                android:layout_height="@dimen/activity_button_height"
                 android:text="Bengaluru"
                 android:id="@+id/button1"
                 android:background="@drawable/my_rounded_button"/>
 
             <Button
                 android:text="Goa"
-                android:layout_width="110dp"
+                android:layout_width="@dimen/activity_small_button_width"
                 android:layout_marginLeft="5dp"
-                android:layout_height="35dp"
+                android:layout_height="@dimen/activity_button_height"
                 android:background="@drawable/my_rounded_button"
                 android:id="@+id/button2" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:layout_marginRight="@dimen/activity_margin"
+            android:layout_marginTop="@dimen/activity_layout_margin_top"
             android:orientation="horizontal">
 
             <Button
-                android:layout_width="110dp"
-                android:layout_height="35dp"
+                android:layout_width="@dimen/activity_small_button_width"
+                android:layout_height="@dimen/activity_button_height"
                 android:text="Delhi"
                 android:id="@+id/button3"
                 android:background="@drawable/my_rounded_button"/>
 
             <Button
-                android:layout_width="170dp"
-                android:layout_height="35dp"
+                android:layout_width="@dimen/activity_large_button_width"
+                android:layout_height="@dimen/activity_button_height"
                 android:text="Ahmedabad"
                 android:layout_marginLeft="5dp"
-                android:id="@+id/buton4"
+                android:id="@+id/button4"
                 android:background="@drawable/my_rounded_button"/>
         </LinearLayout>
         <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/activity_margin"
+        android:layout_marginRight="@dimen/activity_margin"
+        android:layout_marginTop="@dimen/activity_layout_margin_top"
         android:orientation="horizontal">
 
         <Button
-            android:layout_width="170dp"
-            android:layout_height="35dp"
+            android:layout_width="@dimen/activity_large_button_width"
+            android:layout_height="@dimen/activity_button_height"
             android:text="Lucknow"
             android:id="@+id/button5"
             android:background="@drawable/my_rounded_button"/>
 
             <Button
-                android:layout_width="110dp"
-                android:layout_height="35dp"
+                android:layout_width="@dimen/activity_small_button_width"
+                android:layout_height="@dimen/activity_button_height"
                 android:text="Hubballi"
                 android:layout_marginLeft="5dp"
                 android:id="@+id/button6"
@@ -127,21 +127,21 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:layout_marginRight="@dimen/activity_margin"
+            android:layout_marginTop="@dimen/activity_layout_margin_top"
             android:orientation="horizontal">
 
             <Button
-                android:layout_width="110dp"
-                android:layout_height="35dp"
+                android:layout_width="@dimen/activity_small_button_width"
+                android:layout_height="@dimen/activity_button_height"
                 android:text="Pune"
                 android:id="@+id/button7"
                 android:background="@drawable/my_rounded_button"/>
 
             <Button
-                android:layout_width="170dp"
-                android:layout_height="35dp"
+                android:layout_width="@dimen/activity_large_button_width"
+                android:layout_height="@dimen/activity_button_height"
                 android:text="Nasik"
                 android:layout_marginLeft="5dp"
                 android:id="@+id/button8"

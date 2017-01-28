@@ -23,8 +23,8 @@
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
+        android:layout_marginLeft="@dimen/activity_margin"
+        android:layout_marginRight="@dimen/activity_margin"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/editTextLayout">
@@ -45,8 +45,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/editTextLayout"
         app:passwordToggleEnabled="true"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
+        android:layout_marginLeft="@dimen/activity_margin"
+        android:layout_marginRight="@dimen/activity_margin"
         android:layout_centerHorizontal="true"
         app:passwordToggleDrawable="@drawable/password_toggle">
 
@@ -62,8 +62,8 @@
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
+        android:layout_marginLeft="@dimen/activity_margin"
+        android:layout_marginRight="@dimen/activity_margin"
         android:layout_below="@+id/etPasswordLayout"
         android:layout_centerHorizontal="true"
         android:id="@+id/editText3">
@@ -83,7 +83,7 @@
         android:layout_below="@+id/editText3"
         android:layout_alignLeft="@+id/editText3"
         android:layout_alignStart="@+id/editText3"
-        android:layout_marginTop="11dp"
+        android:layout_marginTop="@dimen/activity_layout_margin_top"
         android:id="@+id/userFailTextView" />
 
     <ImageButton
@@ -91,7 +91,7 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/navigate_next"
         android:background="@drawable/my_rounded_button"
-        android:layout_marginBottom="13dp"
+        android:layout_marginBottom="10dp"
         android:id="@+id/imageButton"
         android:onClick="onLogin"
         android:layout_alignParentBottom="true"

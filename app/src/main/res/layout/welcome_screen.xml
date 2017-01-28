@@ -27,7 +27,7 @@
 
     <Button
         android:layout_width="130dp"
-        android:layout_height="35dp"
+        android:layout_height="@dimen/activity_button_height"
         android:text="Get Started"
         android:id="@+id/button"
         android:onClick="getStarted"

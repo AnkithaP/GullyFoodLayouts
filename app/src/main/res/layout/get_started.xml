@@ -21,32 +21,33 @@
         android:layout_marginTop="66dp"
         android:id="@+id/logoView" />
 
-    <ImageView
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/gmail"
         android:layout_marginTop="35dp"
+        android:background="@drawable/my_rounded_button"
         android:id="@+id/gmailView"
         android:layout_below="@+id/gPlusView"
-        android:layout_centerHorizontal="true"
-        android:clickable="true"/>
+        android:layout_centerHorizontal="true" />
 
-    <ImageView
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/google_plus"
         android:layout_marginTop="35dp"
+        android:background="@drawable/my_rounded_button"
         android:id="@+id/gPlusView"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/facebookView"
-        android:clickable="true"/>
+        android:layout_below="@+id/facebookView" />
 
-    <ImageView
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/facebook"
+        android:background="@drawable/my_rounded_button"
         android:id="@+id/facebookView"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:clickable="true"/>
+        android:layout_alignLeft="@+id/gPlusView"
+        android:layout_alignStart="@+id/gPlusView" />
 </RelativeLayout>

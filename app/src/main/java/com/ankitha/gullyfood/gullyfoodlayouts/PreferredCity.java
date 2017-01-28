@@ -6,12 +6,12 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-public class UserLogin extends AppCompatActivity {
+public class PreferredCity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.user_login);
+        setContentView(R.layout.preferred_city);
 
         Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -21,8 +21,8 @@ public class UserLogin extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
     }
 
-    public void onLogin(View view){
-        Intent intent = new Intent(this,PreferredCity.class);
+    public void onClickNext(View view){
+        Intent intent = new Intent(this,PrefrenceScreen.class);
         startActivity(intent);
     }
 }

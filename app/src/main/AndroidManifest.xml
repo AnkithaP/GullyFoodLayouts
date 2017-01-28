@@ -18,7 +18,9 @@
         <activity android:name=".TermsOfUse" />
         <activity android:name=".PrivacyPolicy" />
         <activity android:name=".GetStarted" />
-        <activity android:name=".UserLogin"></activity>
+        <activity android:name=".UserLogin" />
+        <activity android:name=".PreferredCity" />
+        <activity android:name=".PrefrenceScreen"></activity>
     </application>
 
 </manifest>

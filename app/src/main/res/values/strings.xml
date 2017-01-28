@@ -10,4 +10,7 @@
     <string name="progress_text4">Discover new offers daily!</string>
     <string name="emptyString" />
 
+    <string name="prefered_city">Hi. Tell us your prefered city?</string>
+    <string name="preferences">Tell us your interests?</string>
+
 </resources>

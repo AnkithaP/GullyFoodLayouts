@@ -22,7 +22,7 @@ public class PreferredCity extends AppCompatActivity {
     }
 
     public void onClickNext(View view){
-        Intent intent = new Intent(this,PrefrenceScreen.class);
+        Intent intent = new Intent(this,PreferencesScreen.class);
         startActivity(intent);
     }
 }

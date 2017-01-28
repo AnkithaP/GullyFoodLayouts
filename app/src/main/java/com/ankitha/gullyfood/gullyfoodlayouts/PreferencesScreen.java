@@ -3,11 +3,11 @@ package com.ankitha.gullyfood.gullyfoodlayouts;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class PrefrenceScreen extends AppCompatActivity {
+public class PreferencesScreen extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.prefrence_screen);
+        setContentView(R.layout.preferences_screen);
     }
 }

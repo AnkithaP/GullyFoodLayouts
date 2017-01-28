@@ -20,7 +20,7 @@
         <activity android:name=".GetStarted" />
         <activity android:name=".UserLogin" />
         <activity android:name=".PreferredCity" />
-        <activity android:name=".PrefrenceScreen"></activity>
+        <activity android:name=".PreferencesScreen"></activity>
     </application>
 
 </manifest>

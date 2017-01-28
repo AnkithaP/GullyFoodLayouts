@@ -17,7 +17,8 @@
         </activity>
         <activity android:name=".TermsOfUse" />
         <activity android:name=".PrivacyPolicy" />
-        <activity android:name=".GetStarted"></activity>
+        <activity android:name=".GetStarted" />
+        <activity android:name=".UserLogin"></activity>
     </application>
 
 </manifest>
